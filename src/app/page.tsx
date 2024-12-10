@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,11 +17,13 @@ export default function Home() {
           <li className="mb-2">
             Get started by editing{' '}
             <code className="rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]">
-              src/app/page.tsx
+              JVD3N✨
             </code>
-            .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>
+            Save and see your changes instantly in{' '}
+            <Link href={'https://next-15-echo.vercel.app/'}>▶️HERE!◀️</Link>.
+          </li>
         </ol>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row">
@@ -37,7 +40,7 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
+            Deploying..🔨
           </a>
           <a
             className="flex h-10 items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-sm transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:min-w-44 sm:px-5 sm:text-base dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
